@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSL3S="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27 file:/media/lads/Data/users/lads/Trabalho/Eclipse/Repositories/DSL3S/profile/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg">
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSL3S="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27 pathmap://resources/DSL3S/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg">
   <uml:Model xmi:id="_feVQwAbCEeSgkc4k11vOgg" name="model">
     <packagedElement xmi:type="uml:Association" xmi:id="_mIVDkAbCEeSgkc4k11vOgg" name="particle_simFreeze_1" memberEnd="_mIVDkQbCEeSgkc4k11vOgg _mIT1cAbCEeSgkc4k11vOgg">
       <ownedEnd xmi:type="uml:Property" xmi:id="_mIVDkQbCEeSgkc4k11vOgg" name="particle" type="_jCKj4AbCEeSgkc4k11vOgg" aggregation="shared" association="_mIVDkAbCEeSgkc4k11vOgg">
@@ -162,12 +162,13 @@
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_q4lGgAbCEeSgkc4k11vOgg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q5Fc0AbCEeSgkc4k11vOgg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../profile/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg"/>
+        <references xmi:type="ecore:EPackage" href="pathmap://resources/DSL3S/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="../profile/DSL3S.profile.uml#_bf7O0CBZEeKpfttodweVYA"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://resources/DSL3S/DSL3S.profile.uml#_bf7O0CBZEeKpfttodweVYA"/>
     </profileApplication>
   </uml:Model>
   <DSL3S:Simulation xmi:id="_sZkYIAbCEeSgkc4k11vOgg" base_Class="_g5rNYAbCEeSgkc4k11vOgg" simulName="Freeze" spaceHeight="100" spaceWidth="100"/>
+  <DSL3S:Simulation xmi:id="_GVsg8EjEEeSjuvPDmdvgwA" base_Class="_g5rNYAbCEeSgkc4k11vOgg" simulName="Freeze" spaceHeight="100" spaceWidth="100"/>
   <DSL3S:Animat xmi:id="_vvzUIAbCEeSgkc4k11vOgg" initNum="1000" stop="1" wanderer="true" base_Class="_jCKj4AbCEeSgkc4k11vOgg" colourMin="255,255,255"/>
   <DSL3S:Attribute xmi:id="_9jjX4AbCEeSgkc4k11vOgg" base_Class="_kDp2EAbCEeSgkc4k11vOgg" maxValue="1"/>
   <DSL3S:Supply xmi:id="_BM3n8AbDEeSgkc4k11vOgg" maxImpact="0" base_Class="_k1x2kAbCEeSgkc4k11vOgg" maxSupply="1"/>
