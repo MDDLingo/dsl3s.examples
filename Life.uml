@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSL3S="http:///schemas/DSL3S/_DCacAPDEEeOA5dbinY6UPQ/26" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/DSL3S/_DCacAPDEEeOA5dbinY6UPQ/26 file:/media/lads/Data/users/lads/Trabalho/Eclipse/Repositories/DSL3S/profile/DSL3S.profile.uml#_Djd6oPDEEeOA5dbinY6UPQ">
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSL3S="http:///schemas/DSL3S/_DCacAPDEEeOA5dbinY6UPQ/26" xmlns:DSL3S_1="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/DSL3S/_DCacAPDEEeOA5dbinY6UPQ/26 file:/media/lads/Data/users/lads/Trabalho/Eclipse/Repositories/DSL3S/profile/DSL3S.profile.uml#_Djd6oPDEEeOA5dbinY6UPQ http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27 pathmap://resources/DSL3S/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg">
   <uml:Model xmi:id="_BJ00wCQ-EeK2oPEGStcpwg" name="model">
     <packagedElement xmi:type="uml:Association" xmi:id="_SoJFwCQ-EeK2oPEGStcpwg" name="life_alive" memberEnd="_SoJFwSQ-EeK2oPEGStcpwg _SoFbYCQ-EeK2oPEGStcpwg">
       <ownedEnd xmi:type="uml:Property" xmi:id="_SoJFwSQ-EeK2oPEGStcpwg" name="alive" type="_OFA40CQ-EeK2oPEGStcpwg" aggregation="composite" association="_SoJFwCQ-EeK2oPEGStcpwg">
@@ -112,12 +112,12 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://resources/DSL3S/DSL3S.profile.uml#_bf7O0CBZEeKpfttodweVYA"/>
     </profileApplication>
   </uml:Model>
-  <DSL3S:Simulation xmi:id="_PBzIYBQIEeOL_dsJOHIJwA" base_Class="_B_3r8CQ-EeK2oPEGStcpwg" simulName="Game Of Life" spaceHeight="100" spaceWidth="100"/>
-  <DSL3S:Animat xmi:id="_Py0VoBQIEeOL_dsJOHIJwA" stop="0" base_Class="_KES1YCQ-EeK2oPEGStcpwg" inputLayer="data/Life.shp"/>
-  <DSL3S:Emerge xmi:id="_TRyW4BQIEeOL_dsJOHIJwA" scope="1.5" required="true" lowerThreshold="3" upperThreshold="3" base_Class="_TckMUCQ-EeK2oPEGStcpwg"/>
-  <DSL3S:Attribute xmi:id="_UQDV8BQIEeOL_dsJOHIJwA" base_Class="_OFA40CQ-EeK2oPEGStcpwg" minValue="1" maxValue="1" display="true" initValue="1"/>
-  <DSL3S:Harvest xmi:id="_VNa9IBQIEeOL_dsJOHIJwA" valueHarvested="1" base_Class="_jYYv0CQ-EeK2oPEGStcpwg" scope="1.5"/>
-  <DSL3S:Perish xmi:id="_WUZzUBQIEeOL_dsJOHIJwA" upperThreshold="4" lowerThreshold="1" base_Class="_CkmUMCQ_EeK2oPEGStcpwg"/>
-  <DSL3S:Attribute xmi:id="_sMjyYBQIEeOL_dsJOHIJwA" base_Class="_blgCUCQ-EeK2oPEGStcpwg" maxValue="8" stepVariation="-10" initValue="3"/>
-  <DSL3S:Supply xmi:id="_WwaN0C4TEeS7v_O-0bUVYA" maxImpact="1" base_Class="_CGMPoO7oEeOdtbYJsa7Y0g" maxSupply="1"/>
+  <DSL3S_1:Simulation xmi:id="_PBzIYBQIEeOL_dsJOHIJwA" base_Class="_B_3r8CQ-EeK2oPEGStcpwg" simulName="Game Of Life" spaceHeight="100" spaceWidth="100"/>
+  <DSL3S_1:Animat xmi:id="_Py0VoBQIEeOL_dsJOHIJwA" stop="0" base_Class="_KES1YCQ-EeK2oPEGStcpwg" inputLayer="data/Life.shp"/>
+  <DSL3S_1:Emerge xmi:id="_TRyW4BQIEeOL_dsJOHIJwA" scope="1.5" required="true" lowerThreshold="3" upperThreshold="3" base_Class="_TckMUCQ-EeK2oPEGStcpwg"/>
+  <DSL3S_1:Attribute xmi:id="_UQDV8BQIEeOL_dsJOHIJwA" base_Class="_OFA40CQ-EeK2oPEGStcpwg" minValue="1" maxValue="1" display="true" initValue="1"/>
+  <DSL3S_1:Harvest xmi:id="_VNa9IBQIEeOL_dsJOHIJwA" valueHarvested="1" base_Class="_jYYv0CQ-EeK2oPEGStcpwg" scope="1.5"/>
+  <DSL3S_1:Perish xmi:id="_WUZzUBQIEeOL_dsJOHIJwA" upperThreshold="4" lowerThreshold="1" base_Class="_CkmUMCQ_EeK2oPEGStcpwg"/>
+  <DSL3S_1:Attribute xmi:id="_sMjyYBQIEeOL_dsJOHIJwA" base_Class="_blgCUCQ-EeK2oPEGStcpwg" maxValue="8" stepVariation="-10" initValue="3"/>
+  <DSL3S_1:Supply xmi:id="_WwaN0C4TEeS7v_O-0bUVYA" maxImpact="1" base_Class="_CGMPoO7oEeOdtbYJsa7Y0g" maxSupply="1"/>
 </xmi:XMI>
