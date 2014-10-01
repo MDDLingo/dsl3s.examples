@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSL3S="http:///schemas/DSL3S/_DCacAPDEEeOA5dbinY6UPQ/26" xmlns:DSL3S_1="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/DSL3S/_DCacAPDEEeOA5dbinY6UPQ/26 file:/media/lads/Data/users/lads/Trabalho/Eclipse/Repositories/DSL3S/profile/DSL3S.profile.uml#_Djd6oPDEEeOA5dbinY6UPQ http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27 ../profile/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg">
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSL3S="http:///schemas/DSL3S/_DCacAPDEEeOA5dbinY6UPQ/26" xmlns:DSL3S_1="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/DSL3S/_DCacAPDEEeOA5dbinY6UPQ/26 file:/media/lads/Data/users/lads/Trabalho/Eclipse/Repositories/DSL3S/profile/DSL3S.profile.uml#_Djd6oPDEEeOA5dbinY6UPQ http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27 pathmap://resources/DSL3S/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg">
   <uml:Model xmi:id="_h-B84BvfEeOjmZiRzPqkag" name="model">
     <packagedElement xmi:type="uml:Package" xmi:id="_jtERkBvfEeOjmZiRzPqkag" name="Simulation View">
       <packagedElement xmi:type="uml:Association" xmi:id="_3ro40BvfEeOjmZiRzPqkag" name="anim_sprawl_0" memberEnd="_3ro40RvfEeOjmZiRzPqkag _3rnDoBvfEeOjmZiRzPqkag">
@@ -149,19 +149,19 @@
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rIZasBvfEeOjmZiRzPqkag">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rJiqMBvfEeOjmZiRzPqkag" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../profile/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg"/>
+        <references xmi:type="ecore:EPackage" href="pathmap://resources/DSL3S/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="../profile/DSL3S.profile.uml#_bf7O0CBZEeKpfttodweVYA"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://resources/DSL3S/DSL3S.profile.uml#_bf7O0CBZEeKpfttodweVYA"/>
     </profileApplication>
   </uml:Model>
-  <DSL3S:Simulation xmi:id="_sNpLgBvfEeOjmZiRzPqkag" base_Class="_oZj14BvfEeOjmZiRzPqkag" simulName="Sprawl" spaceHeight="100" spaceWidth="100"/>
-  <DSL3S:Animat xmi:id="_yQOZABvfEeOjmZiRzPqkag" initNum="1" stop="null" base_Class="_wzcR8BvfEeOjmZiRzPqkag" colourMin="0,255,255" colourMax="255,0,0"/>
-  <DSL3S:Attribute xmi:id="_SB-6cBvgEeOjmZiRzPqkag" base_Class="_Qd4DYBvgEeOjmZiRzPqkag" maxValue="100" stepVariation="-1" display="true" initValue="100" inputAttribute="null"/>
-  <DSL3S:Global xmi:id="_kNAgcBvgEeOjmZiRzPqkag" base_Class="_h0JLoBvgEeOjmZiRzPqkag" maxValue="100" stepVariation="-1" initValue="100" inputFile="null"/>
-  <DSL3S:Emerge xmi:id="_6qs1gBvgEeOjmZiRzPqkag" probability="8" base_Class="_1ILoIBvgEeOjmZiRzPqkag"/>
-  <DSL3S:Emerge xmi:id="_IHkDQBvhEeOjmZiRzPqkag" probability="0.1" scope="1.4" required="true" base_Class="_Byn6cBvhEeOjmZiRzPqkag"/>
-  <DSL3S:Emerge xmi:id="_jn-osKxXEeOgHYIEg56prw" probability="-100" scope="1.4" base_Class="_RoHJ0KxXEeOgHYIEg56prw"/>
-  <DSL3S:Emerge xmi:id="_FxkFsKxvEeO4B8LU8denRg" probability="10" scope="1.4" base_Class="_xHylUKxuEeO4B8LU8denRg"/>
+  <DSL3S_1:Simulation xmi:id="_sNpLgBvfEeOjmZiRzPqkag" base_Class="_oZj14BvfEeOjmZiRzPqkag" simulName="Sprawl" spaceHeight="100" spaceWidth="100"/>
+  <DSL3S_1:Animat xmi:id="_yQOZABvfEeOjmZiRzPqkag" initNum="1" stop="null" base_Class="_wzcR8BvfEeOjmZiRzPqkag" colourMin="0,255,255" colourMax="255,0,0"/>
+  <DSL3S_1:Attribute xmi:id="_SB-6cBvgEeOjmZiRzPqkag" base_Class="_Qd4DYBvgEeOjmZiRzPqkag" maxValue="100" stepVariation="-1" display="true" initValue="100" inputAttribute="null"/>
+  <DSL3S_1:Global xmi:id="_kNAgcBvgEeOjmZiRzPqkag" base_Class="_h0JLoBvgEeOjmZiRzPqkag" maxValue="100" stepVariation="-1" initValue="100" inputFile="null"/>
+  <DSL3S_1:Emerge xmi:id="_6qs1gBvgEeOjmZiRzPqkag" probability="8" base_Class="_1ILoIBvgEeOjmZiRzPqkag"/>
+  <DSL3S_1:Emerge xmi:id="_IHkDQBvhEeOjmZiRzPqkag" probability="0.1" scope="1.4" required="true" base_Class="_Byn6cBvhEeOjmZiRzPqkag"/>
+  <DSL3S_1:Emerge xmi:id="_jn-osKxXEeOgHYIEg56prw" probability="-100" scope="1.4" base_Class="_RoHJ0KxXEeOgHYIEg56prw"/>
+  <DSL3S_1:Emerge xmi:id="_FxkFsKxvEeO4B8LU8denRg" probability="10" scope="1.4" base_Class="_xHylUKxuEeO4B8LU8denRg"/>
   <DSL3S_1:Spatial xmi:id="_u_1ccAeWEeSPKvleXD_A_w" base_Class="_qN2UIAeWEeSPKvleXD_A_w" maxValue="1" display="true&#xA;" initValue="1" inputLayer="data/Lines.shp" colourMin="192,192,64" colourMax="192,192,64"/>
   <DSL3S_1:Spatial xmi:id="_2nfxYAeWEeSPKvleXD_A_w" base_Class="_q4ksIAeWEeSPKvleXD_A_w" maxValue="1" display="true" initValue="1" inputLayer="data/Polygons.shp" colourMin="128,128,192" colourMax="128,128,192"/>
 </xmi:XMI>
