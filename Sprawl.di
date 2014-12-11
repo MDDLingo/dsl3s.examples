@@ -9,9 +9,6 @@
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="Sprawl.notation#_h-Cj8BvfEeOjmZiRzPqkag"/>
-        </children>
-        <children>
           <emfPageIdentifier href="Sprawl.notation#_K9Uc4ICqEeSasP-U6SN4DA"/>
         </children>
         <children>
