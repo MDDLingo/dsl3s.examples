@@ -11,6 +11,15 @@
         <children>
           <emfPageIdentifier href="Sprawl.notation#_h-Cj8BvfEeOjmZiRzPqkag"/>
         </children>
+        <children>
+          <emfPageIdentifier href="Sprawl.notation#_K9Uc4ICqEeSasP-U6SN4DA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="Sprawl.notation#_Y8gGwIFpEeSIsZo5mqH-ew"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="Sprawl.notation#_W3hsYIFrEeSIsZo5mqH-ew"/>
+        </children>
       </children>
     </windows>
   </sashModel>
