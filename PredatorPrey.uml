@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSL3S="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27 ../DSL3S/profile/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSL3S="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27 ../profile/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg">
   <uml:Model xmi:id="_uoB9EBVhEeKfCYUGa0wThA" name="model">
     <packagedElement xmi:type="uml:Association" xmi:id="_BW8c0BVuEeKKubxyzHq1vA" name="" memberEnd="_BW8c0RVuEeKKubxyzHq1vA _BW6AkBVuEeKKubxyzHq1vA">
       <ownedEnd xmi:type="uml:Property" xmi:id="_BW8c0RVuEeKKubxyzHq1vA" name="" type="_9RDlgBVtEeKKubxyzHq1vA" association="_BW8c0BVuEeKKubxyzHq1vA">
@@ -283,27 +283,21 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="../profile/DSL3S.profile.uml#_bf7O0CBZEeKpfttodweVYA"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_m5-GMIF0EeSPiqj_4Yz3uA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m61B0IF0EeSPiqj_4Yz3uA" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../DSL3S/profile/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg"/>
-      </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="../DSL3S/profile/DSL3S.profile.uml#_bf7O0CBZEeKpfttodweVYA"/>
-    </profileApplication>
   </uml:Model>
-  <DSL3S:Animat xmi:id="_m5bToIF0EeSPiqj_4Yz3uA" initNum="10" stop="null" wanderer="true" base_Class="_ui_PkBViEeKKubxyzHq1vA" colourMin="255,64,64" colourMax="192,0,0" inputLayer="data/Predators.shp"/>
-  <DSL3S:Animat xmi:id="_m5eW8IF0EeSPiqj_4Yz3uA" initNum="30" stop="null" base_Class="_z1g5IBViEeKKubxyzHq1vA" colourMin="64,64,255" colourMax="32,32,186"/>
-  <DSL3S:Spatial xmi:id="_m5e-AIF0EeSPiqj_4Yz3uA" base_Class="_3R_AABViEeKKubxyzHq1vA" maxValue="50" stepVariation="1" display="true" initRandom="true" inputLayer="data/Pasture.agrid" colourMin="224,224,128" colourMax="32,128,32"/>
-  <DSL3S:Move xmi:id="_m5gMIIF0EeSPiqj_4Yz3uA" weight="1" base_Class="_5U5KkBVwEeKKubxyzHq1vA" stop="null"/>
-  <DSL3S:Replicate xmi:id="_m5gzMIF0EeSPiqj_4Yz3uA" lowerThreshold="-1" upperThreshold="50" toll="20" inheritance="20" base_Class="_utXvEBVsEeKKubxyzHq1vA"/>
-  <DSL3S:Harvest xmi:id="_m5gzMYF0EeSPiqj_4Yz3uA" percentHarvested="100" base_Class="_euFOkBVxEeKKubxyzHq1vA"/>
-  <DSL3S:Perish xmi:id="_m5gzMoF0EeSPiqj_4Yz3uA" upperThreshold="101" base_Class="_EuL64BVtEeKKubxyzHq1vA"/>
-  <DSL3S:Move xmi:id="_m5haQIF0EeSPiqj_4Yz3uA" weight="-2" base_Class="_Jam8oBohEeKN07hQpA-1_g" stop="null"/>
-  <DSL3S:Attribute xmi:id="_m5mSwIF0EeSPiqj_4Yz3uA" base_Class="_cC-QABVtEeKKubxyzHq1vA" maxValue="50" stepVariation="-1" display="true" initValue="10" inputAttribute="null"/>
-  <DSL3S:Perish xmi:id="_m5oH8IF0EeSPiqj_4Yz3uA" upperThreshold="51" base_Class="_9RDlgBVtEeKKubxyzHq1vA"/>
-  <DSL3S:Attribute xmi:id="_m5rLQIF0EeSPiqj_4Yz3uA" base_Class="_xwF7cO5ZEeO00oyT07T5Aw" maxValue="100" stepVariation="-1" display="true" initValue="20" inputAttribute="energy"/>
-  <DSL3S:Supply xmi:id="_m5tAcIF0EeSPiqj_4Yz3uA" base_Class="_Xf6r4O5cEeO00oyT07T5Aw"/>
-  <DSL3S:Simulation xmi:id="_m5uOkIF0EeSPiqj_4Yz3uA" base_Class="_vaEtAO5eEeO00oyT07T5Aw" simulName="PredatorPrey" spaceHeight="100" spaceWidth="100"/>
-  <DSL3S:Harvest xmi:id="_m5x48IF0EeSPiqj_4Yz3uA" percentHarvested="100" base_Class="_4u-xcO5fEeO00oyT07T5Aw"/>
-  <DSL3S:Move xmi:id="_m5zuIIF0EeSPiqj_4Yz3uA" weight="1" base_Class="_Y6eBgO5gEeO00oyT07T5Aw" stop="null"/>
-  <DSL3S:Replicate xmi:id="_m51jUIF0EeSPiqj_4Yz3uA" lowerThreshold="-1" upperThreshold="20" toll="10" inheritance="10" base_Class="_sOf28O5gEeO00oyT07T5Aw"/>
+  <DSL3S:Animat xmi:id="_VDLUoBQLEeOL_dsJOHIJwA" initNum="10" stop="null" wanderer="true" base_Class="_ui_PkBViEeKKubxyzHq1vA" colourMin="255,64,64" colourMax="192,0,0" inputLayer="data/Predators.shp"/>
+  <DSL3S:Animat xmi:id="_V2lHgBQLEeOL_dsJOHIJwA" initNum="30" stop="null" base_Class="_z1g5IBViEeKKubxyzHq1vA" colourMin="64,64,255" colourMax="32,32,186"/>
+  <DSL3S:Spatial xmi:id="_We0MMBQLEeOL_dsJOHIJwA" base_Class="_3R_AABViEeKKubxyzHq1vA" maxValue="50" stepVariation="1" display="true" initRandom="true" inputLayer="data/Pasture.agrid" colourMin="224,224,128" colourMax="32,128,32"/>
+  <DSL3S:Move xmi:id="_X9-R0BQLEeOL_dsJOHIJwA" weight="1" base_Class="_5U5KkBVwEeKKubxyzHq1vA" stop="null"/>
+  <DSL3S:Replicate xmi:id="_Ys2KABQLEeOL_dsJOHIJwA" lowerThreshold="-1" upperThreshold="50" toll="20" inheritance="20" base_Class="_utXvEBVsEeKKubxyzHq1vA"/>
+  <DSL3S:Harvest xmi:id="_agfR4BQLEeOL_dsJOHIJwA" percentHarvested="100" base_Class="_euFOkBVxEeKKubxyzHq1vA"/>
+  <DSL3S:Perish xmi:id="_bS4_MBQLEeOL_dsJOHIJwA" upperThreshold="101" base_Class="_EuL64BVtEeKKubxyzHq1vA"/>
+  <DSL3S:Move xmi:id="_dCLLgBQLEeOL_dsJOHIJwA" weight="-2" base_Class="_Jam8oBohEeKN07hQpA-1_g" stop="null"/>
+  <DSL3S:Attribute xmi:id="_e7hSwBQLEeOL_dsJOHIJwA" base_Class="_cC-QABVtEeKKubxyzHq1vA" maxValue="50" stepVariation="-1" display="true" initValue="10" inputAttribute="null"/>
+  <DSL3S:Perish xmi:id="_hZdU0BQLEeOL_dsJOHIJwA" upperThreshold="51" base_Class="_9RDlgBVtEeKKubxyzHq1vA"/>
+  <DSL3S:Attribute xmi:id="_JpO60O5aEeO00oyT07T5Aw" base_Class="_xwF7cO5ZEeO00oyT07T5Aw" maxValue="100" stepVariation="-1" display="true" initValue="20" inputAttribute="energy"/>
+  <DSL3S:Supply xmi:id="_bHrcwO5cEeO00oyT07T5Aw" base_Class="_Xf6r4O5cEeO00oyT07T5Aw"/>
+  <DSL3S:Simulation xmi:id="_z5dpcO5eEeO00oyT07T5Aw" base_Class="_vaEtAO5eEeO00oyT07T5Aw" simulName="PredatorPrey" spaceHeight="100" spaceWidth="100"/>
+  <DSL3S:Harvest xmi:id="_DjtfUO5gEeO00oyT07T5Aw" percentHarvested="100" base_Class="_4u-xcO5fEeO00oyT07T5Aw"/>
+  <DSL3S:Move xmi:id="_bAG4UO5gEeO00oyT07T5Aw" weight="1" base_Class="_Y6eBgO5gEeO00oyT07T5Aw" stop="null"/>
+  <DSL3S:Replicate xmi:id="_yw3-0O5gEeO00oyT07T5Aw" lowerThreshold="-1" upperThreshold="20" toll="10" inheritance="10" base_Class="_sOf28O5gEeO00oyT07T5Aw"/>
 </xmi:XMI>
