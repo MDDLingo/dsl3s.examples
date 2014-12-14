@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSL3S="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27 ../DSL3S/profile/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSL3S="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27 ../dsl3s.profile/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg">
   <uml:Model xmi:id="_vKp30BrZEeKjdP3IW4sVUw" name="model">
     <packagedElement xmi:type="uml:Association" xmi:id="_04FUsBrZEeKjdP3IW4sVUw" name="" memberEnd="_04FUsRrZEeKjdP3IW4sVUw _04EtoBrZEeKjdP3IW4sVUw">
       <ownedEnd xmi:type="uml:Property" xmi:id="_04FUsRrZEeKjdP3IW4sVUw" name="forest" type="_yJVPcBrZEeKjdP3IW4sVUw" aggregation="composite" association="_04FUsBrZEeKjdP3IW4sVUw">
@@ -110,6 +110,26 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_yJVPcBrZEeKjdP3IW4sVUw" name="Forest"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_jMLE4BrfEeKjdP3IW4sVUw" name="EmergeIntensity"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_7bklcPDOEeO0X8xO7IawQw" name="Burn"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ulu50IOqEeShOoTJJ9lkMw" name="A_burn_fire_1" memberEnd="_ulu50YOqEeShOoTJJ9lkMw _ultrsIOqEeShOoTJJ9lkMw">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ulu50YOqEeShOoTJJ9lkMw" name="burn" type="_7bklcPDOEeO0X8xO7IawQw" aggregation="composite" association="_ulu50IOqEeShOoTJJ9lkMw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ulu50oOqEeShOoTJJ9lkMw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ulu504OqEeShOoTJJ9lkMw" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ultrsIOqEeShOoTJJ9lkMw" name="fire" type="_xUdc8BrZEeKjdP3IW4sVUw" association="_ulu50IOqEeShOoTJJ9lkMw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ultrsYOqEeShOoTJJ9lkMw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ultrsoOqEeShOoTJJ9lkMw" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_A82bEIOrEeShOoTJJ9lkMw" name="A_extinguish_fire_1" memberEnd="_A82bEYOrEeShOoTJJ9lkMw _A810AIOrEeShOoTJJ9lkMw">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_A82bEYOrEeShOoTJJ9lkMw" name="extinguish" type="_t5KBcBreEeKjdP3IW4sVUw" aggregation="composite" association="_A82bEIOrEeShOoTJJ9lkMw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A82bEoOrEeShOoTJJ9lkMw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A82bE4OrEeShOoTJJ9lkMw" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_A810AIOrEeShOoTJJ9lkMw" name="fire" type="_xUdc8BrZEeKjdP3IW4sVUw" association="_A82bEIOrEeShOoTJJ9lkMw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A810AYOrEeShOoTJJ9lkMw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A810AoOrEeShOoTJJ9lkMw" value="1"/>
+        </ownedEnd>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_MrBIYO8sEeO8qtiIPFDgNA" name="Scenario View">
       <packagedElement xmi:type="uml:Class" xmi:id="_xUdc8BrZEeKjdP3IW4sVUw" name="Fire"/>
@@ -127,13 +147,19 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="../DSL3S/profile/DSL3S.profile.uml#_bf7O0CBZEeKpfttodweVYA"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_alp2sIOqEeShOoTJJ9lkMw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_amK0EIOqEeShOoTJJ9lkMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../dsl3s.profile/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../dsl3s.profile/DSL3S.profile.uml#_bf7O0CBZEeKpfttodweVYA"/>
+    </profileApplication>
   </uml:Model>
-  <DSL3S:Simulation xmi:id="_EjOhkICaEeSasP-U6SN4DA" base_Class="_wVEcgBrZEeKjdP3IW4sVUw" simulName="Forest Fire" spaceHeight="100" spaceWidth="100"/>
-  <DSL3S:Animat xmi:id="_EjV2UICaEeSasP-U6SN4DA" initNum="3" stop="0" base_Class="_xUdc8BrZEeKjdP3IW4sVUw" colourMin="255,255,0" colourMax="255,0,0"/>
-  <DSL3S:Spatial xmi:id="_EjgOYICaEeSasP-U6SN4DA" base_Class="_yJVPcBrZEeKjdP3IW4sVUw" maxValue="100" display="true" initRandom="true" inputLayer="data/Pasture.agrid" colourMin="64,64,64" colourMax="0,255,0"/>
-  <DSL3S:Emerge xmi:id="_EjnjIICaEeSasP-U6SN4DA" probability="5" scope="1.0" required="true" base_Class="_cTMa4BrfEeKjdP3IW4sVUw"/>
-  <DSL3S:Emerge xmi:id="_EjrNgICaEeSasP-U6SN4DA" probability="2" scope="1.5" required="true" base_Class="_jMLE4BrfEeKjdP3IW4sVUw"/>
-  <DSL3S:Attribute xmi:id="_EjwtEICaEeSasP-U6SN4DA" base_Class="_woGbUBrbEeKjdP3IW4sVUw" maxValue="5" stepVariation="-5" display="true" initValue="1"/>
-  <DSL3S:Perish xmi:id="_Ej0-gICaEeSasP-U6SN4DA" upperThreshold="6" base_Class="_t5KBcBreEeKjdP3IW4sVUw"/>
-  <DSL3S:Harvest xmi:id="_Ej5P8ICaEeSasP-U6SN4DA" valueHarvested="5" base_Class="_7bklcPDOEeO0X8xO7IawQw"/>
+  <DSL3S:Simulation xmi:id="_alVtoIOqEeShOoTJJ9lkMw" base_Class="_wVEcgBrZEeKjdP3IW4sVUw" simulName="Forest Fire" spaceHeight="100" spaceWidth="100"/>
+  <DSL3S:Animat xmi:id="_aleQgIOqEeShOoTJJ9lkMw" initNum="3" stop="0" base_Class="_xUdc8BrZEeKjdP3IW4sVUw" colourMin="255,255,0" colourMax="255,0,0"/>
+  <DSL3S:Spatial xmi:id="_alfeoIOqEeShOoTJJ9lkMw" base_Class="_yJVPcBrZEeKjdP3IW4sVUw" maxValue="100" display="true" initRandom="true" inputLayer="data/Pasture.agrid" colourMin="64,64,64" colourMax="0,255,0"/>
+  <DSL3S:Emerge xmi:id="_aljJAIOqEeShOoTJJ9lkMw" probability="5" scope="1.0" required="true" base_Class="_cTMa4BrfEeKjdP3IW4sVUw"/>
+  <DSL3S:Emerge xmi:id="_alk-MIOqEeShOoTJJ9lkMw" probability="2" scope="1.5" required="true" base_Class="_jMLE4BrfEeKjdP3IW4sVUw"/>
+  <DSL3S:Attribute xmi:id="_almMUIOqEeShOoTJJ9lkMw" base_Class="_woGbUBrbEeKjdP3IW4sVUw" maxValue="5" stepVariation="-5" display="true" initValue="1"/>
+  <DSL3S:Perish xmi:id="_almMUYOqEeShOoTJJ9lkMw" upperThreshold="6" base_Class="_t5KBcBreEeKjdP3IW4sVUw"/>
+  <DSL3S:Harvest xmi:id="_almzYIOqEeShOoTJJ9lkMw" valueHarvested="5" base_Class="_7bklcPDOEeO0X8xO7IawQw"/>
 </xmi:XMI>
