@@ -20,7 +20,7 @@ For more information on DSL3S please visit the project Wiki [2].
 
 [1] http://www.eclipse.org/modeling/mdt/papyrus/
 
-[2] https://github.com/ldesousa/DSL3S/wiki
+[2] https://github.com/MDDLingo/DSL3S/wiki
 
 Licence
 -------------------------------------------------------------------------------
