@@ -164,7 +164,7 @@
   <DSL3S:Simulation xmi:id="_qbElUIOsEeShOoTJJ9lkMw" base_Class="_oZj14BvfEeOjmZiRzPqkag" simulName="Sprawl" spaceHeight="100" spaceWidth="100"/>
   <DSL3S:Animat xmi:id="_qbFMYIOsEeShOoTJJ9lkMw" initNum="1" stop="null" base_Class="_wzcR8BvfEeOjmZiRzPqkag" colourMin="0,255,255" colourMax="255,0,0"/>
   <DSL3S:Attribute xmi:id="_qbFzcIOsEeShOoTJJ9lkMw" base_Class="_Qd4DYBvgEeOjmZiRzPqkag" maxValue="100" stepVariation="-1" display="true" initValue="100" inputAttribute="null"/>
-  <DSL3S:Global xmi:id="_qbGagIOsEeShOoTJJ9lkMw" base_Class="_h0JLoBvgEeOjmZiRzPqkag" maxValue="100" stepVariation="-1" initValue="100" inputFile="null"/>
+  <DSL3S:Global xmi:id="_qbGagIOsEeShOoTJJ9lkMw" base_Class="_h0JLoBvgEeOjmZiRzPqkag" minValue="0" maxValue="100" stepVariation="-1" initValue="100" inputFile="null"/>
   <DSL3S:Emerge xmi:id="_qbGagYOsEeShOoTJJ9lkMw" probability="8" base_Class="_1ILoIBvgEeOjmZiRzPqkag"/>
   <DSL3S:Emerge xmi:id="_qbHBkIOsEeShOoTJJ9lkMw" probability="0.1" scope="1.4" required="true" base_Class="_Byn6cBvhEeOjmZiRzPqkag"/>
   <DSL3S:Emerge xmi:id="_qbHBkYOsEeShOoTJJ9lkMw" probability="-100" scope="1.4" base_Class="_RoHJ0KxXEeOgHYIEg56prw"/>
