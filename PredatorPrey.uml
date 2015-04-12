@@ -137,16 +137,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_GHyw8K0KEeOwIOVcIgmabQ" name="Prey View">
       <packagedElement xmi:type="uml:Class" xmi:id="_9RDlgBVtEeKKubxyzHq1vA" name="PreyPerish"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_lhtPoN0ZEeO3X9w9Cy58AA" name="fleePredator_Prey" memberEnd="_lhtPod0ZEeO3X9w9Cy58AA _lhsBgN0ZEeO3X9w9Cy58AA">
-        <ownedEnd xmi:type="uml:Property" xmi:id="_lhtPod0ZEeO3X9w9Cy58AA" name="movePredator" type="_Jam8oBohEeKN07hQpA-1_g" aggregation="composite" association="_lhtPoN0ZEeO3X9w9Cy58AA">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lhtPot0ZEeO3X9w9Cy58AA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lhtPo90ZEeO3X9w9Cy58AA" value="1"/>
-        </ownedEnd>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_lhsBgN0ZEeO3X9w9Cy58AA" name="prey" type="_z1g5IBViEeKKubxyzHq1vA" association="_lhtPoN0ZEeO3X9w9Cy58AA">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lhsBgd0ZEeO3X9w9Cy58AA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lhsBgt0ZEeO3X9w9Cy58AA" value="1"/>
-        </ownedEnd>
-      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_3R_AABViEeKKubxyzHq1vA" name="Pasture"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_1OmQYO5eEeO00oyT07T5Aw" name="pasture_sim_1" memberEnd="_1OmQYe5eEeO00oyT07T5Aw _1OlpUO5eEeO00oyT07T5Aw">
         <ownedEnd xmi:type="uml:Property" xmi:id="_1OmQYe5eEeO00oyT07T5Aw" name="pasture" type="_3R_AABViEeKKubxyzHq1vA" aggregation="composite" association="_1OmQYO5eEeO00oyT07T5Aw">
