@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSL3S="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/DSL3S/_jBFk4AYJEeSItoOzkyeFeg/27 ../dsl3s.profile/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DSL3S="http:///schemas/DSL3S/_4LM9UMTnEeSyHcN-qMnzcw/29" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/DSL3S/_4LM9UMTnEeSyHcN-qMnzcw/29 pathmap://resources/DSL3S/DSL3S.profile.uml#_4vZPgMTnEeSyHcN-qMnzcw">
   <uml:Model xmi:id="_vKp30BrZEeKjdP3IW4sVUw" name="model">
     <packagedElement xmi:type="uml:Association" xmi:id="_04FUsBrZEeKjdP3IW4sVUw" name="" memberEnd="_04FUsRrZEeKjdP3IW4sVUw _04EtoBrZEeKjdP3IW4sVUw">
       <ownedEnd xmi:type="uml:Property" xmi:id="_04FUsRrZEeKjdP3IW4sVUw" name="forest" type="_yJVPcBrZEeKjdP3IW4sVUw" aggregation="composite" association="_04FUsBrZEeKjdP3IW4sVUw">
@@ -135,23 +135,18 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_xUdc8BrZEeKjdP3IW4sVUw" name="Fire"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_wVEcgBrZEeKjdP3IW4sVUw" name="Sim"/>
     </packagedElement>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_7hVEUBQFEeOL_dsJOHIJwA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7h6TIBQFEeOL_dsJOHIJwA" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="pathmap://resources/DSL3S/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_cWi9oOBREeSxcP15l8f3eQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cXTLkOBREeSxcP15l8f3eQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cXTLkeBREeSxcP15l8f3eQ" key="Version" value="1.1.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cXTLkuBREeSxcP15l8f3eQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cXTLk-BREeSxcP15l8f3eQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cXTLlOBREeSxcP15l8f3eQ" key="Date" value="2015-03-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cXTLleBREeSxcP15l8f3eQ" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cXIzgOBREeSxcP15l8f3eQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://resources/DSL3S/DSL3S.profile.uml#_4vZPgMTnEeSyHcN-qMnzcw"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://resources/DSL3S/DSL3S.profile.uml#_bf7O0CBZEeKpfttodweVYA"/>
-    </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_EkE2IICaEeSasP-U6SN4DA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ElFiwICaEeSasP-U6SN4DA" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../DSL3S/profile/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg"/>
-      </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="../DSL3S/profile/DSL3S.profile.uml#_bf7O0CBZEeKpfttodweVYA"/>
-    </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_alp2sIOqEeShOoTJJ9lkMw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_amK0EIOqEeShOoTJJ9lkMw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../dsl3s.profile/DSL3S.profile.uml#_jJVh8AYJEeSItoOzkyeFeg"/>
-      </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="../dsl3s.profile/DSL3S.profile.uml#_bf7O0CBZEeKpfttodweVYA"/>
     </profileApplication>
   </uml:Model>
   <DSL3S:Simulation xmi:id="_alVtoIOqEeShOoTJJ9lkMw" base_Class="_wVEcgBrZEeKjdP3IW4sVUw" simulName="Forest Fire" spaceHeight="100" spaceWidth="100"/>
