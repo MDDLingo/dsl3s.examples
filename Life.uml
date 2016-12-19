@@ -118,6 +118,6 @@
   <DSL3S_1:Attribute xmi:id="_UQDV8BQIEeOL_dsJOHIJwA" base_Class="_OFA40CQ-EeK2oPEGStcpwg" minValue="1" maxValue="1" display="true" initValue="1"/>
   <DSL3S_1:Harvest xmi:id="_VNa9IBQIEeOL_dsJOHIJwA" valueHarvested="1" base_Class="_jYYv0CQ-EeK2oPEGStcpwg" scope="1.5"/>
   <DSL3S_1:Perish xmi:id="_WUZzUBQIEeOL_dsJOHIJwA" upperThreshold="4" lowerThreshold="1" base_Class="_CkmUMCQ_EeK2oPEGStcpwg"/>
-  <DSL3S_1:Attribute xmi:id="_sMjyYBQIEeOL_dsJOHIJwA" base_Class="_blgCUCQ-EeK2oPEGStcpwg" maxValue="8" stepVariation="-10" initValue="3"/>
+  <DSL3S_1:Attribute xmi:id="_sMjyYBQIEeOL_dsJOHIJwA" base_Class="_blgCUCQ-EeK2oPEGStcpwg" maxValue="8" minValue="0" stepVariation="-10" initValue="3"/>
   <DSL3S_1:Supply xmi:id="_WwaN0C4TEeS7v_O-0bUVYA" maxImpact="1" base_Class="_CGMPoO7oEeOdtbYJsa7Y0g" maxSupply="1"/>
 </xmi:XMI>
